@@ -11,8 +11,7 @@ export default function App() {
       <Router>
         <div
           id="content"
-          className="grid grid-cols-[150px_1fr] gap-4 flex-grow"
-        >
+          className="grid grid-cols-[150px_1fr] gap-4 flex-grow">
           <div id="sidebar" className="border-r pr-4">
             <nav>
               <ul>

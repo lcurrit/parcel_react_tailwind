@@ -9,8 +9,7 @@ function Home() {
           <a
             href="https://parceljs.org/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Parcel
           </a>
         </li>
@@ -18,8 +17,7 @@ function Home() {
           <a
             href="https://reactjs.org/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             React
           </a>
         </li>
@@ -27,8 +25,7 @@ function Home() {
           <a
             href="https://tailwindcss.com/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             TailwindCSS
           </a>
         </li>
