@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 
 export default function PokemonList({ pokemon }) {
   return (
-    <div>
+    <div className="flex flex-wrap gap-4 my-4">
       {pokemon.map((p) => (
-        <div key={p}>{p}</div>
+        <div key={p} className="border p-4 flex-auto text-center">
+          {p}
+        </div>
       ))}
     </div>
   );
