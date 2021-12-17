@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Pagination({ gotoPrevPage, gotoNextPage }) {
   return (
-    <div className="flex justify-around my-4">
+    <div className="flex justify-around max-w-lg mx-auto">
       {gotoPrevPage && (
         <button className="btn" onClick={gotoPrevPage}>
           Previous

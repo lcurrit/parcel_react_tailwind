@@ -41,6 +41,14 @@ export default function Pokemon() {
 
   return (
     <>
+      <h2>Pokemon List Tutorial</h2>
+      <p>
+        Following a YouTube Tutorial for pullig a list of Pokemon from the{' '}
+        <a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer">
+          Pokemon API
+        </a>
+        .
+      </p>
       <PokemonList pokemon={pokemon} />
       <Pagination
         gotoPrevPage={prevPageURL ? gotoPrevPage : null}

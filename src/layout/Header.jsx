@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <div>
-      <h1 className="text-center my-4">Pokemon List Tutorial</h1>
-    </div>
+    <header className="mb-4 py-4 border-b">
+      <h1 className="text-center">TailwindCSS + React + Parcel</h1>
+    </header>
   );
 }
