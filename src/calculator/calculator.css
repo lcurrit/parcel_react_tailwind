@@ -1,0 +1,30 @@
+.calculator-body {
+  @apply inline-block p-2 mx-auto from-blue-400 to-green-400 bg-gradient-to-r;
+}
+
+.calculator-grid {
+  @apply grid grid-cols-[repeat(4,_6rem)] grid-rows-[minmax(7rem,_auto)_repeat(5,_6rem)] justify-center;
+}
+
+.output {
+  @apply col-span-full bg-black/75 flex flex-col items-end justify-around p-3 break-all break-words;
+}
+
+.previous-operand {
+  @apply text-white/75 text-2xl;
+}
+
+.current-operand {
+  @apply text-white;
+  font-size: 2.5rem;
+}
+
+.calculator-grid > button {
+  @apply cursor-pointer border border-solid border-white outline-none bg-white/75;
+  font-size: 2rem;
+}
+
+.calculator-grid > button:hover,
+.calculator-grid > button:focus {
+  @apply bg-white/90;
+}

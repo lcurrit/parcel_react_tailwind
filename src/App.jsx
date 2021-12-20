@@ -1,8 +1,8 @@
 import React from 'react';
-import { Header, Footer } from './layout';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
+import { Header, Footer, Home } from './layout';
 import Pokemon from './pokemon/Pokemon';
+import Calculator from './calculator/Calculator';
 
 export default function App() {
   return (
@@ -21,12 +21,16 @@ export default function App() {
                 <li>
                   <Link to="/pokemon">Pokemon</Link>
                 </li>
+                <li>
+                  <Link to="/calculator">Calculator</Link>
+                </li>
               </ul>
             </nav>
           </div>
           <main className="p-4">
             <Routes>
-              <Route path="/pokemon" element={<Pokemon />} />{' '}
+              <Route path="/calculator" element={<Calculator />} />
+              <Route path="/pokemon" element={<Pokemon />} />
               <Route path="/" element={<Home />} />
             </Routes>
           </main>
