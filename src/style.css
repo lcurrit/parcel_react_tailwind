@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Base */
 @layer base {
   h1 {
     @apply text-2xl;
@@ -11,6 +12,7 @@
   }
 }
 
+/* Full Height */
 body {
   @apply h-screen w-screen;
 }
@@ -18,6 +20,7 @@ body {
   @apply h-full;
 }
 
+/* Default */
 a {
   @apply text-blue-500 hover:text-blue-700 hover:underline;
 }
