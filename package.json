@@ -6,13 +6,13 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel --open",
-    "build": "parcel build"
+    "build": "parcel build",
+    "format": "npx prettier -w ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -30,6 +30,7 @@
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "parcel": "^2.0.1",
+    "prettier": "^2.5.1",
     "tailwindcss": "^3.0.0"
   }
 }
