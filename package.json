@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel --open",
-    "build": "parcel build",
+    "start": "rimraf dist && parcel --open",
+    "build": "rimraf dist && parcel build",
     "check:prettier": "npx prettier -c src/",
     "check:eslint": "npx eslint src/ --ext js,jsx,ts,tsx --fix-dry-run",
     "prepare": "husky install"
@@ -31,6 +31,7 @@
     "lint-staged": "^12.1.7",
     "parcel": "^2.0.1",
     "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
     "tailwindcss": "^3.0.0"
   },
   "lint-staged": {
