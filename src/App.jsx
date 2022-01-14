@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+
+var foo = bar;
 
 export default function App() {
   return (
