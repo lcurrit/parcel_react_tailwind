@@ -8,7 +8,8 @@
     "start": "parcel --open",
     "build": "parcel build",
     "format": "npx prettier -w src/",
-    "lint": "npx eslint src/ --ext js,jsx,ts,tsx"
+    "lint": "npx eslint src/ --ext js,jsx,ts,tsx",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -27,8 +28,14 @@
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
     "parcel": "^2.0.1",
     "prettier": "^2.5.1",
     "tailwindcss": "^3.0.0"
+  },
+  "lint-staged": {
+    "*.src/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+    "*.src/": "prettier --write"
   }
 }

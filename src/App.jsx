@@ -1,5 +1,6 @@
 import React from "react";
 
+/* Husky Test */
 var foo = bar;
 
 export default function App() {
