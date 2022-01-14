@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build",
-    "format": "npx prettier -w src/",
+    "format": "npx prettier -c src/",
     "lint": "npx eslint src/ --ext js,jsx,ts,tsx",
     "prepare": "husky install"
   },
@@ -36,6 +36,6 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
-    "*.src/": "prettier --write"
+    "*.{css,html,js,jsx,ts,tsx}": "prettier --write"
   }
 }
