@@ -6,5 +6,3 @@ Notes:
 Verify the following items
 recommended vscode extensions
 vscode settings.json (check this in?)
-prettier on required files
-eslint on required files

@@ -3,12 +3,11 @@
   "source": "src/index.html",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build",
-    "format": "npx prettier -c src/",
-    "lint": "npx eslint src/ --ext js,jsx,ts,tsx",
+    "check:prettier": "npx prettier -c src/",
+    "check:eslint": "npx eslint src/ --ext js,jsx,ts,tsx --fix-dry-run",
     "prepare": "husky install"
   },
   "keywords": [],
