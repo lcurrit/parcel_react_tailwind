@@ -7,8 +7,8 @@
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build",
-    "format": "npx prettier -w .",
-    "lint": "npx eslint . --ext js,jsx,ts,tsx"
+    "format": "npx prettier -w src/",
+    "lint": "npx eslint src/ --ext js,jsx,ts,tsx"
   },
   "keywords": [],
   "author": "",
