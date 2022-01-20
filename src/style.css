@@ -20,7 +20,7 @@ body {
   @apply h-full;
 }
 
-/* Default */
+/* Defaults */
 a {
   @apply text-blue-500 hover:text-blue-700 hover:underline;
 }
