@@ -6,7 +6,7 @@
   "scripts": {
     "start": "rimraf dist && parcel --open",
     "build": "rimraf dist && parcel build && serve ./dist/",
-    "check:prettier": "npx prettier -c src/",
+    "check:prettier": "npx prettier -c ./src/**/*.{html,css,scss,js,jsx,ts,tsx}",
     "check:eslint": "npx eslint src/ --ext js,jsx,ts,tsx --fix-dry-run",
     "prepare": "husky install"
   },
@@ -38,6 +38,6 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
-    "*.{html,js,jsx,ts,tsx}": "prettier --write"
+    "*.{html,css,scss,js,jsx,ts,tsx}": "prettier --write"
   }
 }
