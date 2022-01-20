@@ -1,0 +1,9 @@
+.parcel-cache
+dist
+.eslintrc.json
+package.json
+package-lock.json
+.eslintignore
+.gitignore
+.husky
+.prettierignore
