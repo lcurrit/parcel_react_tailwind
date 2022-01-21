@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./App.module.scss";
+import * as styles from "./App.module.css";
 
 export default function App() {
   return (
     <div className={styles.content}>
-      <h1 className={styles.teal}>Hello World!</h1>
+      <h1 className={styles.decoration}>Hello World!</h1>
     </div>
   );
 }

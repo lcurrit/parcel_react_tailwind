@@ -1,7 +1,6 @@
-$color: teal;
 .content {
   @apply container mx-auto px-4 lg:max-w-5xl h-full flex flex-col;
 }
-.teal {
-  color: $color;
+.decoration {
+  @apply underline decoration-teal-500;
 }
