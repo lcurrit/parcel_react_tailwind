@@ -1,0 +1,3 @@
+.decoration {
+  @apply underline decoration-teal-500;
+}

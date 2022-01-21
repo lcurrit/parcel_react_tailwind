@@ -1,10 +1,6 @@
 import React from "react";
-import * as styles from "./App.module.css";
+import Content from "./components/Content";
 
 export default function App() {
-  return (
-    <div className={styles.content}>
-      <h1 className={styles.decoration}>Hello World!</h1>
-    </div>
-  );
+  return <Content />;
 }
