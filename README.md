@@ -9,4 +9,3 @@ Test API
 Accessibility
 Unit Testing
 Automatic Documentation (Storybook?)
-Recommended VS Code settings (Editorconfig)
