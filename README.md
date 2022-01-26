@@ -8,4 +8,4 @@ Environment Variables
 Test API
 Accessibility
 Unit Testing
-Automatic Documentation (Storybook?)
+Automatic Documentation (TypeDoc)
